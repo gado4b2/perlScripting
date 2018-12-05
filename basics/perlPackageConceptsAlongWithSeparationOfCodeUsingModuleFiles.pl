@@ -15,13 +15,13 @@ use warnings;
 #use Hello;
 require Hello;
 
-sub Hello_Local () {
+sub hello_Local () {
  print "This Hello_Local subroutine is residing in package ",__PACKAGE__,"\n";
 }
 
-Hello_Local();
+hello_Local();
 # Below subroutine 'hello()' is residing in Hello.pm file under no package.
-# If there are any subroutines in .pm files not under any pacakges inside .pm files, they will considered under main package by perl interpreter.
+# If there are any subroutines in .pm files not under any pacakges inside .pm files, they will be considered under main package by perl interpreter.
 hello();
 Hello::hello();
 HelloVariant::hello();
