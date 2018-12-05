@@ -30,7 +30,7 @@ print "Fruits list size is $fruits_size \n";
 my @sorted_fruits=sort @fruits;
 print "Fruits after sorting are  @sorted_fruits \n";
 
-# Push, pop , shift ahift and unshift operations.
+# Push, pop , shift and unshift operations.
 
 push @fruits,"Watermelon";
 print "Available \@fruits after push are @fruits \n";
